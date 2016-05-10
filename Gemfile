@@ -22,11 +22,14 @@ gem 'omniauth-twitter'
 gem 'omniauth-linkedin'
 gem 'omniauth-instagram'
 gem 'gibbon'
+gem 'social-share-button'
+gem 'awesome-share-buttons', github: 'evansobkowicz/awesome-share-buttons'
 group :development do
   gem 'web-console'
   gem 'spring'
   gem 'listen', '~> 3.0.5'
   gem 'spring-watcher-listen', '~> 2.0.0'
+
 end
 
 group :development, :test do
